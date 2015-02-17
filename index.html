@@ -1,0 +1,27 @@
+    <!doctype html>
+    <html lang="en">
+        <head>
+            <title>GotChange?</title>
+            <meta charset="UTF-8">
+            <meta name="description" content="Got Change App">
+            <meta name="keywords" content="coin, change, algorithm, javascript">
+            <meta name="author" content="Henrique Serro">
+            <link href='css/style.css' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400'>
+        </head>
+        <body>
+            <div class="input-container">
+                <input id="inputVal" maxlength="7" />
+                <p id="res">Please insert an integer or decimal number.</p>
+            </div>
+
+            <script src="js/script.js"></script>
+            <script>
+            // create object and init program
+            var changeObj = new gotChange('inputVal','res');
+            changeObj.init();
+            </script>
+        </body>
+    </html>
+	
+	
